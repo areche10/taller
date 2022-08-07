@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="reloj">
+            <p class="fecha"></p>
+            <p class="tiempo"></p>
+        </div>
+    </header>
+    <main>
+        <section class="add_task_b">
+            <form action="" id="task_form">
+                <div class="task">
+                    <input type="text" placeholder="New task..." id="task">
+                </div>
+    
+                <div class="date">
+                    <input type="date" id="date">
+                </div>
+
+                <button value="add">Add</button>
+            </form>
+        </section>
+        
+        <section class="lista_de_tareas">
+            <div class="task_list_title"></div>
+            <div class="task_list2" id="task_list">
+
+            </div>
+        </section>
+    </main>
+</body>
+<script src="/script.js"></script>
+</html>
